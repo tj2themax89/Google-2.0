@@ -1,0 +1,146 @@
+
+body {
+  font: normal 13px Arial, sans-serif;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+li a {
+  text-decoration: none;
+  color: #5F6368;
+  display: block ;
+  text-align: center;
+  padding: 10px;
+}
+
+.header-1 {
+  width: 100%;
+}
+
+.header-1 li img {
+  text-decoration: none;
+  color: black;
+  display: block;
+  text-align: center;
+  padding: 10px;
+  margin: 0;
+}
+
+.float-left {
+  float: left;
+}
+
+.float-left:hover {
+  text-decoration: underline;
+}
+
+.float-right {
+  float: right;
+}
+
+.float-right:hover {
+  text-decoration: underline;
+}
+
+#img1 {
+  padding-top: 6px;
+}
+
+#img2 {
+  padding-top: 2px;
+}
+
+.google-logo {
+  text-align: center;
+  padding-top: 180px;
+  padding-bottom: 30px;
+}
+
+.search-box {
+  border: 1px solid #c2c2c2;
+  text-align: center;
+  border-top-left-radius: 50px;
+  border-bottom-left-radius: 50px;
+  border-top-right-radius: 50px;
+  border-bottom-right-radius: 50px;
+  width: 400px;
+  margin: auto;
+}
+
+.search-box:hover {
+  box-shadow: 0 0 10px #c2c2c2;
+}
+
+.search-box li {
+  text-decoration: none;
+  color: black;
+  display: inline-block;
+  text-align: center;
+  vertical-align: middle;
+  margin: 0;
+}
+
+#txt-box:focus {
+  outline: none;
+  border: 0;
+  box-shadow: none;
+}
+
+#search-img {
+  padding-top: 5px;
+  height: 35px;
+  width: 30px;
+}
+
+#txt-box {
+  border: none;
+  width: 300px;
+}
+
+#mic-icon-img {
+  height: 30px;
+  width: 30px;
+}
+
+.search-nav-links {
+  text-align: center;
+}
+
+.search-nav-links li {
+  text-decoration: none;
+  color: black;
+  display: inline-block;
+  vertical-align: middle;
+  margin-top: 20px;
+  padding: 20px;
+}
+
+.googlesearchbuttons {
+  background-color: #f2f2f2;
+  color: #5F6368;
+  width: 140px;
+  height: 40px;
+  font-size: 14px;
+  margin: 30px 10px;
+  border: none;
+}
+
+.googlesearchbuttons:hover {
+  box-shadow: 0 0 3px #c2c2c2;
+  border: #f2f2f2;
+}
+
+.footer-nav-links {
+  position: absolute;
+  bottom: 0;
+  border-top: 1px solid #e4e4e4;
+  background-color: #f2f2f2;
+  line-height: 40px;
+  width: 100%;
+  margin-left: -8px;
+}
